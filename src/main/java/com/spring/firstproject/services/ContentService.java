@@ -1,12 +1,12 @@
-package services;
+package com.spring.firstproject.services;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import models.Content;
-import repositories.ContentRepository;
+import com.spring.firstproject.domain_models.*;
+import com.spring.firstproject.repositories.ContentRepository;
 
 @Service
 public class ContentService {
